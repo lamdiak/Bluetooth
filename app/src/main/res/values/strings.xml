@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bluetooth-2.0</string>
+    <string name="my_image">TODO</string>
+    <string name="textgardien">Gardiennage</string>
+    <string name="img">TODO</string>
+    <string name="switch1">ACTIVE</string>
+    <string name="my_text">ACTIVÉ</string>
+    <string name="list_bt">List-BT</string>
+    <string name="list_paired">PÉRIPHÉRIQUES APPAIRÉS</string>
+    <string name="text2"> APPAREILS DISPONIBLES</string>
+    <string name="Analys">Analyser</string>
+    <string name="image">TODO</string>
+    <string name="Text">Description</string>
+    <string name="Contenu">Text</string>
+    <string name="Img_alert">Alert</string>
+    <string name="entrer_le_numero_du_contact">Entrer le numero du contact</string>
+    <string name="taper_un_message">Taper un message</string>
+</resources>

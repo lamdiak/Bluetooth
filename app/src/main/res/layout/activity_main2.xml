@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+  <com.ebanx.swipebtn.SwipeButton
+      android:id="@+id/swipe_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="20dp"
+      app:button_background="@drawable/shape_button"
+      app:button_bottom_padding="20dp"
+      app:button_image_disabled="@drawable/ic_lock_outline_black_24dp"
+      app:button_image_enabled="@drawable/ic_lock_open_black_24dp"
+      app:button_left_padding="20dp"
+      app:button_right_padding="20dp"
+      app:button_top_padding="20dp"
+      app:inner_text="Balayer pour Activer"
+      app:inner_text_background="@drawable/shape_rounded"
+      app:inner_text_bottom_padding="18dp"
+      app:inner_text_color="@android:color/white"
+      app:inner_text_size="16sp"
+      app:inner_text_top_padding="18dp">
+
+  </com.ebanx.swipebtn.SwipeButton>
+
+
+  <!--  <TextView
+        android:id="@+id/active_desac"
+        android:layout_width="157dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:gravity="center"
+        android:text="@string/my_text"
+        android:textSize="17sp"
+        android:textStyle="bold" />-->
+
+ <!-- <io.ghyeok.stickyswitch.widget.StickySwitch
+      android:id="@+id/stick_switch"
+      android:layout_width="171dp"
+      android:layout_height="76dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginTop="7dp"
+      android:layout_marginEnd="12dp"
+      app:iconPadding="18dp"
+      app:iconSize="22dp"
+      app:leftIcon="@drawable/ic_add"
+      app:leftText="ACTIVÉ"
+      app:rightIcon="@drawable/ic_clear"
+      app:rightText="DÉSACTIVÉ"
+      app:selectedTextSize="14sp"
+      app:sliderBackgroundColor="@color/colorStickyBG"
+      app:switchColor="@color/colorSticky"
+      app:textColor="@android:color/white"
+      app:textSize="12sp" />-->
+
+
+  <TextView
+      android:id="@+id/text1"
+      android:layout_width="match_parent"
+      android:layout_height="44dp"
+      android:layout_above="@+id/List1"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="0dp"
+      android:layout_marginLeft="0dp"
+      android:layout_marginTop="91dp"
+      android:layout_marginEnd="0dp"
+      android:layout_marginRight="0dp"
+      android:layout_marginBottom="-135dp"
+      android:background="#f2e7e4"
+      android:gravity="center"
+      android:text="@string/list_paired" />
+
+  <ListView
+      android:id="@+id/List1"
+      android:layout_width="match_parent"
+      android:layout_height="111dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="0dp"
+      android:layout_marginTop="141dp"
+      android:layout_marginBottom="315dp">
+
+
+  </ListView>
+
+  <TextView
+      android:id="@+id/text2"
+      android:layout_width="wrap_content"
+      android:layout_height="47dp"
+      android:layout_alignBottom="@+id/List2"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="2dp"
+      android:layout_marginTop="283dp"
+      android:layout_marginEnd="181dp"
+      android:layout_marginBottom="217dp"
+
+      android:gravity="fill"
+      android:text="@string/text2" />
+
+  <ListView
+      android:id="@+id/List2"
+      android:layout_width="match_parent"
+      android:layout_height="142dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="0dp"
+      android:layout_marginTop="405dp"
+      android:layout_marginBottom="20dp" />
+
+  <Switch
+      android:id="@+id/switch2"
+      android:layout_width="wrap_content"
+      android:layout_height="39dp"
+      android:layout_alignStart="@+id/text2"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="202dp"
+      android:layout_marginTop="288dp"
+      android:layout_marginEnd="13dp"
+      android:layout_marginBottom="240dp"
+      android:text="@string/Analys" />
+
+
+</RelativeLayout>

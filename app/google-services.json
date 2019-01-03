@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "256184232552",
+    "firebase_url": "https://neural-ripple-217420.firebaseio.com",
+    "project_id": "neural-ripple-217420",
+    "storage_bucket": "neural-ripple-217420.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256184232552:android:880bbd4f3300d22b",
+        "android_client_info": {
+          "package_name": "com.example.lamine.bluetooth_20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256184232552-dufpoj0pm6c1b2e1dlhghmsmdden7c45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lamine.bluetooth_20",
+            "certificate_hash": "3b6b8aa620d7cb75e55754acf03e57d84f694b8b"
+          }
+        },
+        {
+          "client_id": "256184232552-tn1o8lu4coob3f3v6g0o2prl2a3ti1t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkMYyRpTEh9LTZCMOBGYwO0AIWc-Xusco"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256184232552-tn1o8lu4coob3f3v6g0o2prl2a3ti1t2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
